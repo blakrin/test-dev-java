@@ -1,0 +1,26 @@
+[
+  {
+    "fistName": "string",
+    "gameDeckId": 1,
+    "lastName": "string",
+    "pseudo": "Blaise1"
+  },
+  {
+    "fistName": "string",
+    "gameDeckId": 1,
+    "lastName": "string",
+    "pseudo": "Blaise2"
+  },
+  {
+    "fistName": "string",
+    "gameDeckId": 1,
+    "lastName": "string",
+    "pseudo": "Blaise3"
+  },
+  {
+    "fistName": "string",
+    "gameDeckId": 1,
+    "lastName": "string",
+    "pseudo": "Blaise4"
+  }
+]

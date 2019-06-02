@@ -1,0 +1,18 @@
+[
+  {
+    "quatity": 13,
+    "suit": "hearts"
+  },
+  {
+    "quatity": 13,
+    "suit": "spades"
+  },
+  {
+    "quatity": 13,
+    "suit": "diamonds"
+  },
+  {
+    "quatity": 13,
+    "suit": "clubs"
+  }
+]
