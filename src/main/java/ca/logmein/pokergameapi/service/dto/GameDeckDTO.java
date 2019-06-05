@@ -7,13 +7,17 @@ import javax.annotation.Nonnull;
 import javax.annotation.Nullable;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.annotation.JsonInclude;
+import com.fasterxml.jackson.annotation.JsonInclude.Include;
 
 /**
  * 
  * @author Blaise Siani
+
  * @Date May 31, 2019
  *
  */
+@JsonInclude(Include.NON_DEFAULT)
 public class GameDeckDTO implements Serializable {
 
 	private static final long serialVersionUID = 1L;
@@ -74,6 +78,7 @@ public class GameDeckDTO implements Serializable {
 	/**
 	 * @param id the id to set
 	 */
+	
 	public void setId(final Long id) {
 		this.id = id;
 	}

@@ -72,8 +72,7 @@ public class GameDeckResource {
     @PostMapping("/game-decks")
     public ResponseEntity<GameDeckDTO> createGameDeck(@RequestBody final GameDeckDTO gameDeckDTO) throws URISyntaxException {
         log.debug("REST request to save GameDeck : {}", gameDeckDTO);
-        if (Objects.nonNull(gameDeckDTO.getId()))
-			throw new BadRequestAlertException("A new gameDeck cannot already have an ID", ENTITY_NAME, "idexists");
+       
         final GameDeckDTO result = gameDeckService.save(gameDeckDTO);
         return ResponseEntity.created(new URI("/api/game-decks/" + result.getId()))
             .headers(HeaderUtil.createEntityCreationAlert(ENTITY_NAME, result.getId().toString()))
